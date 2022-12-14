@@ -20,6 +20,11 @@
     & a {
         text-decoration: underline;
     }
+
+    @xs {
+        font-size: 10px;
+        background-colo: red;
+    }
 }
 
 //.card .card-title {}
