@@ -1,0 +1,9 @@
+$sizes : 10, 20, 30;
+
+
+@each $size in $sizes {
+    .space-#{$size} {
+        margin: $size + px;
+        padding: $size * 2px;
+    }
+}
